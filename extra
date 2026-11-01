@@ -1,0 +1,6 @@
+powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
+$env:Path = "C:\Users\ACER\.local\bin;$env:Path"
+uv --version 
+uv init
+uv init --python 3.11
+uv add langchain-openai langchain-chroma langchain-text-splitters langchain-core chromadb openai sentence-transformers deepeval pytest python-dotenv
