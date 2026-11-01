@@ -4,3 +4,11 @@ uv --version
 uv init
 uv init --python 3.11
 uv add langchain-openai langchain-chroma langchain-text-splitters langchain-core chromadb openai sentence-transformers deepeval pytest python-dotenv
+
+
+git init
+git remote add origin https://github.com/kunalgkk/RAG-EVAL-PROJECT.git
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git push -u origin main
